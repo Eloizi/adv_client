@@ -1,6 +1,6 @@
 #home {
     display: flex;
-    min-width: calc(100vh - 96px);
+    min-width: calc(100vh - 91px);
     position: relative;
 }
 
@@ -59,18 +59,18 @@
 }
 
 #banner img {
-    height: 80%;
+    height: 100%;
     width: fit-content;
 }
 
 .shape{
-    background-color: #f1bf4a;
-    width: 40%;
-    height: 100%;
+    background-color: #e6b753;
+    width: 35%;
+    height: 90%;
     position: absolute;
-    border-radius: 40% 30% 0% 20%;
-    top: 0;
-    right: 0;
+    border-radius: 4% 40% 4% 40%;
+    top: 30px;
+    right: 70px;
     z-index: 1;
 }
 
@@ -78,7 +78,9 @@
     #home{
         min-height: 100%;
         padding-top: 0px;
+        /* font-size: small; */
     }
+
 
     #banner,
     #banner img,
@@ -93,9 +95,24 @@
     }
 }
 
+
+@media screen and (max-width: 600px){
+        #cta .title {
+            font-size: 3rem;
+            color: beige;
+        }
+}
+
 @media screen and (max-width: 450px) {
     #phone_button button {
         display: none;
     }
+    #home{
+        min-width: calc(80% - 91px);
+        /* font-size: small; */
+    }
 
+    #cta .title{
+        font-size: 40px;
+    }
 }
