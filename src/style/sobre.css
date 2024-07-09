@@ -1,0 +1,12 @@
+#sobre{
+    /* min-height: calc(100vh - 91px); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    gap: 48px;
+}
+
+#sobre .section-title {
+    margin-left: 5px;
+}
