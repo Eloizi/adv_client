@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://advocaciavanessagomes.com.br/sitemap.xml
